@@ -1,0 +1,9 @@
+#As duas tem que ser verdadeira
+
+idade = 30
+possui_cartao = False
+
+if idade >= 18 and possui_cartao:
+    print("Você pode fazer compras com desconto.")
+else:
+    print("Você não pode fazer compras com desconto.")
