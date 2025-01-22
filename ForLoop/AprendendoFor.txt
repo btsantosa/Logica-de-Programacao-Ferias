@@ -1,0 +1,4 @@
+O for é uma estrutura de controle de fluxo que permite criar loops para iterar sobre sequências.
+ O for é mais adequado quando você sabe antecipadamente quantas vezes deseja que o loop seja 
+ executado, com base no tamanho da sequência. Aqui está a estrutura básica do for:
+
