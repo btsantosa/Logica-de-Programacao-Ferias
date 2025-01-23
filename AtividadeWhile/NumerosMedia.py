@@ -12,8 +12,6 @@ while True:
 
     numero = int(input("Insira um número: (0 para sair)"))
 
-    
-
     if numero == 0:
         print("OK")
         break
