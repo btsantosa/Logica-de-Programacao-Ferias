@@ -36,7 +36,8 @@ while True:
             if apartamento < maior:
                 menor = apartamento
                 apartamentoMenor = i + 2
-
+            # Descobrir valor que consumiu mais
+            
         print(f"A soma do KWh dos 6 apartamentos é: {somaApartamento}")
         print(f"A média de consumo dos 6 apartamentos é: {mediaApartamento}")
         print(f"O apartamento que mais consumiu foi: {apartamentoMaior} com {maior} KWh")
