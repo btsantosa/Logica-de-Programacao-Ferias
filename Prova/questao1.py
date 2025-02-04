@@ -27,11 +27,7 @@ while True:
             
             apartamento = int(input(f"Digite o consumo do apartamento {i}: "))
       
-            contador += 1
-            # Soma
-            somaApartamento += apartamento
-            # Média 
-            mediaApartamento = somaApartamento / contador
+            
 
             # Descobrir valor que consumiu mais
             if apartamento > maior:
@@ -43,14 +39,12 @@ while True:
                 menor = apartamento
                 apartamentoMenor = i + 1
 
-            # Numero de apartamentos que mais consumiu
-            if apartamento > mediaApartamento:
-                apartamentosMaiorConsumo = i + 1
-
-            # Numero de apartamentos que menos consumiu
-            if apartamento < mediaApartamento:
-                apartamentosMenosConsumo = i + 1
-                
+            contador += 1
+            # Soma
+            somaApartamento += apartamento
+            # Média 
+            
+        mediaApartamento = somaApartamento / 4
         
         print(f"A soma do KWh dos 4 apartamentos é: {somaApartamento}")
         print(f"A média de consumo dos 4 apartamentos é: {mediaApartamento}")
