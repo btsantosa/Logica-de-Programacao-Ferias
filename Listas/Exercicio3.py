@@ -3,8 +3,6 @@
 # ficar abaixo de 20°C. A função incrementa 1°C por iteração até atingir o mínimo.
 # Temperaturas originais: [18.5, 20.0, 19.0, 22.5, 17.0, 19.9].
 
-
-
 def ajustar_temperatura(temp, ideal):
     for i in range(6):
         while temp[i] < ideal:
