@@ -1,2 +1,3 @@
 # Logica-de-Programacao-Ferias
-Minhas atividades que fiz na férias referentes a lógica de programação
+Esse repositório registra minha jornada do 1° Período da faculdade de Análise e Desenvolvimento de Sistemas. Onde aprendemos lógica de programação na linguagem Python, uma linguagem simples e de fácil entendimento.
+
