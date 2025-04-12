@@ -1,4 +1,4 @@
-# Uma ou outra pode ser verdadeira
+# or (ou): basta uma das condições ser verdadeira para o resultado final ser verdadeiro.
 
 cargo = "ADM"
 departamento = "RH"

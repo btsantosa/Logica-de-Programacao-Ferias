@@ -1,7 +1,0 @@
-idade = 24
-possui_cartao = False
-
-if (idade >= 18 and possui_cartao) or idade >= 21:
-    print("Você pode fazer compras com desconto.")
-else:
-    print("Você não pode fazer compras com desconto.")
